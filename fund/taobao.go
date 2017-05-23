@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"ripple/db"
+	db "ripple/database"
 )
 
 var (
