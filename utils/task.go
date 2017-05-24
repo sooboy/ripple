@@ -12,6 +12,7 @@ type Task struct {
 
 //init 初始化任务
 func (t *Task) init() {
+	t.callback()
 	for _ = range t.ticker.C {
 		t.callback()
 	}
